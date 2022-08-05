@@ -18,8 +18,6 @@ const getRandomValue = function getRandomArbitrary(min, max) {
 
 let correctAnswer = getRandomValue(1, 20);
 
-console.log(correctAnswer);
-
 again.addEventListener('click', function () {
   message.textContent = 'Start guessing...';
   guess.value = '';
